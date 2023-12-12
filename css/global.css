@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #141414;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.subtitulo {
+  font-family: "Lobster", "Fira Sans", Arial, sans-serif;
+  font-size: 9rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+@media (max-width: 50rem) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
